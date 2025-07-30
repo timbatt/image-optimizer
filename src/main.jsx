@@ -8,7 +8,10 @@ import {
   BrowserRouter, Routes, Route
 } from "react-router";
 
+window.location.href = "https://apps.zoarvalleysoftware.com/"; // redirect to new site.
+
 const BASE = process.env.NODE_ENV === 'production' ? '/image-optimizer' : '/';
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
